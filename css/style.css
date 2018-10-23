@@ -6,14 +6,27 @@ body {
     height: 100%;
     
 }
-a {
-    text-decoration: none;
-}
 
-.main {
-    height: 100%;
+.header{
+    display: flex;
+    justify-content:space-between;
 }
-.social-image{
-    width: 30px;
-    margin: 15px;
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+}
+.gallery{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.aboutMain{
+    display: flex;
+}
+.thumbnail{
+    width:20%;
 }
