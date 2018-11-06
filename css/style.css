@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    
+    background: url(https://wallpapertag.com/wallpaper/full/c/0/1/296007-large-steven-universe-background-1920x1080.jpg);
 }
 
 .header{
@@ -14,6 +14,12 @@ body {
 .navbar{
     display:flex;
     justify-content: space-between;
+}
+.social-image{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    width: 550px;
 }
 .footer{
     display:flex;
@@ -26,13 +32,13 @@ body {
 }
 .aboutMain{
     display: flex;
-    background: url("http://pre05.deviantart.net/ed6d/th/pre/i/2016/190/7/a/steven_universe_twilight_background_by_sakicakes-da9bl3x.png");
     width: 1000px;
     height: 1000px;
 }
-.steven{
-    text-align:white;
-}
 .thumbnail-image{
     width:350px;
+}
+.picture{
+    width:430px;
+    height: 500px;
 }
